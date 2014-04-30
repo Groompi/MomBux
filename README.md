@@ -38,10 +38,9 @@ To set it so that you get the email when the person selects to points go to emai
 
 Don't forget to send me some feedback if you use it! more updates to come!
 
-
-<code>
 Version Log
 0.5
+<code>
 point system
 redeem
 create
