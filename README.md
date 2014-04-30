@@ -22,16 +22,16 @@ pd = price
 sid = service id
 
 Example:
-"<a href="confirm.php?pd=5&sid=Put+Away+Dishes" class="list-group-item">
-			  	<span class="badge">5</span>
+href="confirm.php?pd=5&sid=Put+Away+Dishes" class="list-group-item"
+			  	
 			    Put Away Dishes
-			  </a>"
+			  
 to
 
-"<a href="confirm.php?pd=5&sid=Eat+Dinner" class="list-group-item">
-			  	<span class="badge">5</span>
+"href="confirm.php?pd=5&sid=Eat+Dinner" class="list-group-item"
+			  	
 			    Eat Dinner
-			  </a>"
+			  
 
 
 To set it so that you get the email when the person selects to points go to email.php and open with text editor and insert your own email.
