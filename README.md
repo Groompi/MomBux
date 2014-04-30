@@ -4,7 +4,7 @@ MomBux
 Simple system to give/get points and spend
 
 
-The system has an admin page that you can create gift codes. Redeem page will be coming soon. 
+The system has an admin page that you can create gift codes. Redeem page. (will be coming soon.)
 
 The idea behind the project is:
 
