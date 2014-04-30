@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Welcome To Mombux!</title>
 	<?php
-		include 'handler.php';
+		include './../handler.php';
 		$length = 10;
 		$giftCode = substr(str_shuffle("0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"), 0, $length);
 		$fal = False;
