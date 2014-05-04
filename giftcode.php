@@ -22,7 +22,7 @@
 		$giftCode = substr(str_shuffle("0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"), 0, $length);
 		$fal = False;
 
-		$sql = "INSERT INTO GiftCode (Code, Redeemed) VALUES (:giftCode, :fal)";
+		$sql = "INSERT INTO giftcode (Code, Redeemed) VALUES (:giftCode, :fal)";
 		$q = $handler->prepare($sql);
 		$q->execute(array(':giftCode'=>$giftCode,
 						   ':fal'=>$fal));

@@ -12,7 +12,7 @@
 		$fal = False;
     $amount = $_GET['amount'];
 
-		$sql = "INSERT INTO GiftCode (Code, Redeemed, Amount) VALUES (:giftCode, :fal, :amount)";
+		$sql = "INSERT INTO giftcode (Code, Redeemed, Amount) VALUES (:giftCode, :fal, :amount)";
 		$q = $handler->prepare($sql);
 		$q->execute(array(':giftCode'=>$giftCode,
 						   ':fal'=>$fal,
